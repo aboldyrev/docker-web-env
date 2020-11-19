@@ -26,6 +26,7 @@ services:
       - mysql
     volumes:
       - ./:/var/www
+      - ~/.ssh/:/root/.ssh/
     depends_on:
       - mysql
 
