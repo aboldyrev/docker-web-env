@@ -13,7 +13,7 @@
  - NGINX_PORT_HTTP — порт для протокола HTTP (по умолчанию 80)
  - NGINX_PORT_HTTPS — порт для протокола HTTPS (по умолчанию 443)
 
-Список непоходимых алиасов:
+Список необходимых алиасов:
  - php71 — ``alias php71="docker exec -it php7.1 php"``
  - composer71 — ``alias composer71="docker exec -it php7.1 composer"``
  - mysql — ``alias mysql="docker exec -it mariadb mysql"``
