@@ -17,7 +17,7 @@ services:
       - php
 
   php:
-    image: aboldyrev/php:7.1-fpm
+    image: aboldyrev/php-7.1-fpm:v1.0
     container_name: php7.1
     ports:
       - 9000:9000
